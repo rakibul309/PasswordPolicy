@@ -11,7 +11,7 @@ class PasswordPolicy
 
     }
 
-    public function check($user, $password)
+    public function check(UserInterface $user, $password)
     {
 
     }
